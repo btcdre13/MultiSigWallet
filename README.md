@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# MultiSigWallet
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+sample implementation of a multi signature wallet allowing to choose the number of signers and signatures required
+integrated functionality to check the balance in USD through chainlink oracle
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
